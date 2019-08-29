@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Test
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+      - run: npm install -g yarn
+      - run: yarn
+      - run: yarn test
+  build:
+    runs-on: ubuntu-latest
+    name: Create production build
+    steps:
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+        with:
+          node-version: 10.x
+      - run: npm install -g yarn
+      - run: yarn
+      - run: yarn build --production
