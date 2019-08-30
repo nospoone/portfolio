@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+// Fonts
+$lato: "Lato", sans-serif;
+
+// Colors
+$black: #000000;
+$white: #FFFFFF;
+$darkGrey: #202020;
+$darkerGrey: #101010;
+$grey: #303030;
+$blue: #00A2FF;
+$purple: #660999;
+
+// Breakpoints
+$mobileBreakpoint: 767px;
+
+// Weights
+$weightLight: 300;
+$weightRegular: 400;
+$weightBlack: 900;
+
+// Easing
+$outExpo: cubic-bezier(0.19, 1, 0.22, 1);
+$inExpo: cubic-bezier(0.95, 0.05, 0.795, 0.035);

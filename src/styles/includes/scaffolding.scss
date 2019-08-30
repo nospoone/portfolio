@@ -1,0 +1,108 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $lato;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 50px;
+		height: 3px;
+		bottom: -7px;
+		left: 0;
+		background: $blue;
+		transform: scaleX(0);
+		transform-origin: top left;
+		transition: transform 250ms $outExpo;
+	}
+	&:hover {
+		&:after {
+			transform: scaleX(1);
+		}
+	}
+}
+
+.wrapper {
+	max-width: 1660px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 30px;
+	@media screen and (max-width: 600px) {
+		padding: 0 15px;
+	}
+}
+
+.rainbow {
+	animation-duration: 5s;
+	animation-name: rainbow;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.rainbow--alt {
+	animation-duration: 6s;
+	animation-name: rainbow-alt;
+}
+
+// pal:
+//  Blue: #00A0C8
+//  Green: #10C840
+//  Yellow: #FAC800
+//  Red: #D24040
+@keyframes rainbow {
+	0% {
+		color: $blue;
+	}
+	20% {
+		color: #10C840;
+	}
+	40% {
+		color: #FAC800;
+	}
+	60% {
+		color: #D24040;
+	}
+	80% {
+		color: $purple;
+	}
+	100% {
+		color: $blue;
+	}
+}
+
+// pal:
+//  Blue: #00A0C8
+//  Green: #10C840
+//  Yellow: #FAC800
+//  Red: #D24040
+@keyframes rainbow-alt {
+	0% {
+		color: #10C840;
+	}
+	20% {
+		color: $purple;
+	}
+	40% {
+		color: $blue;
+	}
+	60% {
+		color: #D24040;
+	}
+	80% {
+		color: #FAC800;
+	}
+	100% {
+		color: #10C840;
+	}
+}
