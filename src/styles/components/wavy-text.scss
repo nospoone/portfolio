@@ -1,0 +1,9 @@
+.wavy-text {
+    &:after {
+        content: " ";
+    }
+}
+
+.wavy-text__letter {
+	display: inline-block;
+}
