@@ -1,5 +1,10 @@
 .wavy-text {
+    white-space: nowrap;
+
     &:after {
+        content: " ";
+    }
+    &:before {
         content: " ";
     }
 }

@@ -6,7 +6,7 @@ export default function WavyText({text, strength, speed}) {
 
 	useEffect(() => {
 		let rafHandle;
- 
+
 		function draw(elapsed) {
 			refs.current.forEach((ref, index) => {
 				if (ref !== null) {

@@ -7,7 +7,7 @@ export default function Home() {
 		<section className="home">
 			<img className="home__avatar" alt="Avatar" src={avatar}/>
 			<div className="home__container js-menu-trigger">
-				<h1 className="home__title">Hi, I'm Roméo, and I am a&nbsp;
+				<h1 className="home__title">Hi, I'm Roméo, and I am a
 					<span className="home__title-break">
 						<WavyText text="creative" strength={4} speed={1.2}/>
 						programmer
