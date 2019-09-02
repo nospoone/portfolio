@@ -1,0 +1,14 @@
+.wavy-text {
+    white-space: nowrap;
+
+    &:after {
+        content: " ";
+    }
+    &:before {
+        content: " ";
+    }
+}
+
+.wavy-text__letter {
+	display: inline-block;
+}
