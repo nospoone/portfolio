@@ -111,7 +111,7 @@
 
 .client__description__link {
 	color: $blue;
-	text-decoration-skip: ink;
+	text-decoration-skip-ink: auto;
 	&:after {
 		display: none;
 	}

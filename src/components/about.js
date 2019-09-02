@@ -20,29 +20,37 @@ export default function About() {
 				<p className="about__content about__content--margin">Since I've been working remotely for most of my career, I've learnt how to communicate clearly and organize my work to keep projects under control. Also, while I can adapt myself to pretty much any framework/language that is needed for a particular job, I have a set of them on which I have developed an expertise.</p>
 				<h3 className="about__subheader">Code</h3>
 				<div className="about__items">
-					<span className="about__item">Node.js</span>
-					<span className="about__item">ES6 &amp; 7 (w/ Babel)</span>
-					<span className="about__item">React/Redux</span>
-					<span className="about__item">Pug</span>
-					<span className="about__item">LESS/SASS</span>
-					<span className="about__item">Unity</span>
-					<span className="about__item">Arduino</span>
+					<span className="about__item">Javascript</span>
+					<span className="about__item">Typescript</span>
+					<span className="about__item">Flow</span>
+					<span className="about__item">C#</span>
+					<span className="about__item">CSS (Sass, LESS)</span>
+					<span className="about__item">GraphQL</span>
+					<span className="about__item">React.js</span>
+					<span className="about__item">SQL</span>
+					<span className="about__item">MongoDB</span>
+					<span className="about__item">Redis</span>
 				</div>
-				<h3 className="about__subheader">Infrastructure</h3>
+				<h3 className="about__subheader">Infrastructure (CI/CD/VCS)</h3>
 				<div className="about__items">
 					<span className="about__item">DigitalOcean</span>
-					<span className="about__item">nginx</span>
-					<span className="about__item">Express</span>
-					<span className="about__item">webpack</span>
-					<span className="about__item">Gulp.js</span>
-					<span className="about__item">PM2</span>
+					<span className="about__item">AWS</span>
+					<span className="about__item">GCP</span>
+					<span className="about__item">CircleCI</span>
+					<span className="about__item">GitHub Actions</span>
+					<span className="about__item">Kubernetes</span>
+					<span className="about__item">Docker</span>
+					<span className="about__item">GitHub</span>
+					<span className="about__item">GitLab</span>
 				</div>
-				<h3 className="about__subheader">Productivity</h3>
+				<h3 className="about__subheader">Productivity / Team Management</h3>
 				<div className="about__items">
 					<span className="about__item">Slack</span>
+					<span className="about__item">JIRA/Confluence</span>
 					<span className="about__item">Trello</span>
-					<span className="about__item">Toggl</span>
-					<span className="about__item">GitHub &amp; GitLab</span>
+					<span className="about__item">GitHub</span>
+					<span className="about__item">GitLab</span>
+					<span className="about__item">Agile Methodology (Scrum/Kanban)</span>
 				</div>
 			</div>
 		</section>

@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="main-footer__extend main-footer__extend--white"/>
                 <div className="main-footer__cta">
                     <h2 className="main-footer__title">
-                        Need help for your next web and/or game project?
+                        Need help for your next web project?&nbsp;
                         <span role="img" aria-label="rocket">🚀</span>
                     </h2>
                     <a className="main-footer__link" href="mailto:hey@nospoonemak.es?subject=Hey!">Shoot me an email!</a>

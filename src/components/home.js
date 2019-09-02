@@ -14,7 +14,7 @@ export default function Home() {
 					</span>
 				</h1>
 				<h2 className="home__subtitle">I like to make things work, move, and feel good <span role="img" aria-label="ok hand">👌</span></h2>
-				<span className="home__brief">I am a full-stack web developer and game programmer.</span>
+				<span className="home__brief">I am a full-stack web developer and I do consultancy.</span>
 				<span className="home__contact">Have a project you'd like to talk about?</span>
 				<a className="home__link" href="mailto:hey@nospoonemak.es?subject=Hey!">Get in touch!</a>
 				<div className="home__social">
